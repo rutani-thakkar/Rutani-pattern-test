@@ -1,0 +1,21 @@
+for i in 0..9 do
+
+  if i < 5
+    for k in 0..i do 
+      print " "
+    end
+    for j in 0..(5-i) do
+      print "*"
+    end
+  else
+    for k in 0..(9-i) do 
+      print " "
+    end
+    for j in 0..j do
+      print "*"
+    end
+  end
+  puts
+end
+
+
